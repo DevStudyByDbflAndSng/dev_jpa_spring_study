@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e43d03962979998",
+        "id": "4c3d1b656f10f873",
         "type": "tabs",
         "children": [
           {
-            "id": "b11707b09ca08473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aca05f913cc1e888",
+            "id": "c4c9499dd3b93caf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aca05f913cc1e888",
+  "active": "c4c9499dd3b93caf",
   "lastOpenFiles": [
+    "KakaoTalk_Photo_2023-07-12-14-56-35.md",
+    "01장 JPA - intro.md",
     "KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
+    "README.md",
     "KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
     "KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
-    "KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
-    "01장 JPA - intro.md",
-    "README.md"
+    "KakaoTalk_Photo_2023-07-12-15-13-07.jpeg"
   ]
 }
