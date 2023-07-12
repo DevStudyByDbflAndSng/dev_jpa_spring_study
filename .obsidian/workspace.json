@@ -11,10 +11,8 @@
             "id": "c4c9499dd3b93caf",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +140,19 @@
   },
   "active": "c4c9499dd3b93caf",
   "lastOpenFiles": [
+    "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
+    "snghyun/1장/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
+    "snghyun/1장/KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
+    "snghyun/1장/KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
+    "snghyun/1장/KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
+    "snghyun/1장/01장 JPA - intro.md",
+    "snghyun/1장",
+    "snghyun/무제 폴더",
     "snghyun/KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
     "snghyun/01장 JPA - intro.md",
     "jpa1.jpeg",
     "snghyun/KakaoTalk_Photo_2023-07-12-14-56-35.md",
     "01장 JPA - intro.md",
-    "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
     "snghyun/KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
     "snghyun/KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
     "snghyun",
@@ -159,8 +160,6 @@
     "KakaoTalk_Photo_2023-07-12-14-56-35.md",
     "KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
     "README.md",
-    "KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
-    "KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
-    "KakaoTalk_Photo_2023-07-12-15-13-07.jpeg"
+    "KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg"
   ]
 }
