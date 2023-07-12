@@ -137,8 +137,8 @@ JPA는 자바 진영의 ORM 기술 표준이다. 애플리케이션과 JDBC 사�
 #### ORM 이란?
 Object - Relational - Mapping 객체와 관계형데이터베이스를 매핑한다.
 ORM 프레임워크는 객체와 테이블을 매핑해서 패러다임의 불일치 문제를 개발자 대신 해결해준다.
+![jpa](./jpa1.jpeg)
 
-![jpa](./KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg)
 
 ![[KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg]]
 
