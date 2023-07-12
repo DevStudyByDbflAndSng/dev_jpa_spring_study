@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "b98ca64188c39d39",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e43d03962979998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b11707b09ca08473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aca05f913cc1e888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01장 JPA - intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f15d59efc1ecf08a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d628206cc6c12cfa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4134f46558ede981",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d72f306a2571d86",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0ade08238a3a1a9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "026de94c302674f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a69e0e6dd7dbbc1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b45d30aa202968b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01장 JPA - intro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "01b38f56c157f310",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01장 JPA - intro.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "78bc140e9f208613",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f30e2fec83e3ef4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01장 JPA - intro.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aca05f913cc1e888",
+  "lastOpenFiles": [
+    "KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
+    "KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
+    "KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
+    "KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
+    "01장 JPA - intro.md",
+    "README.md"
+  ]
+}
