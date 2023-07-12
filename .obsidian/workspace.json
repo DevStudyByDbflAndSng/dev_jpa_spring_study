@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01장 JPA - intro.md",
+                "file": "snghyun/01장 JPA - intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01장 JPA - intro.md",
+                "file": "snghyun/01장 JPA - intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01장 JPA - intro.md",
+                "file": "snghyun/01장 JPA - intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01장 JPA - intro.md"
+                "file": "snghyun/01장 JPA - intro.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "c4c9499dd3b93caf",
   "lastOpenFiles": [
-    "KakaoTalk_Photo_2023-07-12-14-56-35.md",
+    "snghyun/KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
+    "snghyun/KakaoTalk_Photo_2023-07-12-14-56-35.md",
+    "snghyun/01장 JPA - intro.md",
     "01장 JPA - intro.md",
+    "snghyun/KakaoTalk_Photo_2023-07-12-15-13-07.jpeg",
+    "snghyun/KakaoTalk_Photo_2023-07-12-15-04-23.jpeg",
+    "snghyun/KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
+    "snghyun",
+    "무제 폴더",
+    "KakaoTalk_Photo_2023-07-12-14-56-35.md",
     "KakaoTalk_Photo_2023-07-12-14-56-34 001.jpeg",
     "README.md",
     "KakaoTalk_Photo_2023-07-12-14-56-35 002.jpeg",
