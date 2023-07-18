@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.List;
 
 public class JpaMain {
 
@@ -18,11 +19,15 @@ public class JpaMain {
 
 
         try {
-           Member findMember = em.find(Member.class, 1L);
-            System.out.println();
-            System.out.println();
 
-            tx.commit();
+            // 영속
+            Member member = em.find(Member.class, 150L);
+            member.setName("AAAA");
+
+            em.detach(member);
+            System.out.println("=========================");
+
+            tx.commit(); // commit 하는 시점에 db에 쿼리가 날라간다.
         } catch (Exception e) {
             tx.rollback();
         } finally {
