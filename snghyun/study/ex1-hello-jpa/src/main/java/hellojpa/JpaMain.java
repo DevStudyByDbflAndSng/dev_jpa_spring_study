@@ -16,16 +16,6 @@ public class JpaMain {
        tx.begin();
 
        try {
-//          Member member = new Member();
-//          member.setId(1L);
-//          member.setName("HelloA");
-//          em.persist(member);
-//          em.remove(1L);
-//          Member findMember = em.find(Member.class, 1L);
-//          findMember.setName("BYE1");
-          // JPA의 모든 변경은 트랜잭션 안에서 실행
-          // 엔티티 매니저는 쓰레드간에 공유X
-          // 엔티티 매니저 팩토리는 하나만 생성해서 애플리케이션 전체에서 공유함
            List<Member> result =  em.createQuery("select m from Member as m", Member.class).getResultList();
            // 쿼리 대상이 컬럼명이 아닌 객체를 대상으로 함.
 
@@ -40,5 +30,24 @@ public class JpaMain {
          em.close();
        }
        emf.close();
+    }
+
+    private static void logic(EntityManager em) {
+        Long id = 1L;
+        Member member = new Member();
+        member.setId(id);
+        member.setName("지한");
+        member.setAge(2);
+
+        em.persist(member);
+        member.setAge(23); // 어떤 엔티티가 변경되었는지 추적하는 기능을 갖춤.
+
+        Member findMember = em.find(Member.class, id);
+        System.out.println(findMember.getName() + " " + findMember.getAge());
+
+        List<Member> members = em.createQuery("select m from Member m", Member.class).getResultList();
+        System.out.println(members.size());
+
+        em.remove(member);
     }
 }

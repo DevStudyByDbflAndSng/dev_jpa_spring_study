@@ -8,6 +8,7 @@ public class Member {
     @Id
     private Long id;
     private String name;
+    private int age;
 
     public Long getId() {
         return id;
@@ -23,5 +24,13 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
