@@ -20,12 +20,6 @@ public class JpaMain {
 
         try {
 
-            // 영속
-            Member member = em.find(Member.class, 150L);
-            member.setName("AAAA");
-
-            em.detach(member);
-            System.out.println("=========================");
 
             tx.commit(); // commit 하는 시점에 db에 쿼리가 날라간다.
         } catch (Exception e) {
