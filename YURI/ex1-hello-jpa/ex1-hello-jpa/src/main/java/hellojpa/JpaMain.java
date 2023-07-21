@@ -20,6 +20,12 @@ public class JpaMain {
 
         try {
 
+            Member member = new Member();
+            member.setId(3L);
+            member.setUsername("C");
+            member.setRoleType(RoleType.GUEST);
+
+            em.persist(member);  // db에 저장
 
             tx.commit(); // commit 하는 시점에 db에 쿼리가 날라간다.
         } catch (Exception e) {
