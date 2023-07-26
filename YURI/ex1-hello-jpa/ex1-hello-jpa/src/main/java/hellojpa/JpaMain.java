@@ -23,7 +23,10 @@ public class JpaMain {
             Member member = new Member();
             member.setUsername("C");
 
+            System.out.println("=============");
             em.persist(member);  // db에 저장
+            System.out.println("member.id = " + member.getId() );
+            System.out.println("=============");
 
             tx.commit(); // commit 하는 시점에 db에 쿼리가 날라간다.
         } catch (Exception e) {
