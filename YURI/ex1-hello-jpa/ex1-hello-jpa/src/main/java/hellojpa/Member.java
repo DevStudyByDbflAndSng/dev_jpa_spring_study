@@ -9,11 +9,17 @@ import java.util.Date;
 import static javax.persistence.EnumType.ORDINAL;
 
 @Entity
+@TableGenerator(
+        name = "MEMBER_SEQ_GENERATOR",
+        table = "MY_SEQUENCES",
+        pkColumnValue = "MEMBER_SEQ", allocationSize = 1)
 public class Member {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.TABLE,
+            generator = "MEMBER_SEQ_GENERATOR")
     private Long id;
+
     @Column(name = "name", nullable = false) // nullable = false하면 not null 제약 조건이 걸림, updatable = false 하면 이 컬럼은 절대 변경 안됨.
     private String username;
 
