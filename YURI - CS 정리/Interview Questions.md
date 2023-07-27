@@ -324,7 +324,7 @@ void : return값이 없는 메서드
 <br><br><br><br>
  
 
-31. 자바에서 메소드의 호출 방식과 자료구조, 해당 자료구조의 특징
+<span style="color:red">  31. 자바에서 메소드의 호출 방식과 자료구조, 해당 자료구조의 특징 </span>
 
 Call by calue(값에 의한 호출)
 
