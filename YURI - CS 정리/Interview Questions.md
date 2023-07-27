@@ -404,7 +404,17 @@ Deque
 
 - Null요소는 사용 불가
 <br><br><br><br>
- 
+
+
+
+
+ stack
+
+ - 후입선출 (LIFO: Last In First Out)
+<br><br><br><br>
+
+
+
 
 32. package란 무엇인가
 
