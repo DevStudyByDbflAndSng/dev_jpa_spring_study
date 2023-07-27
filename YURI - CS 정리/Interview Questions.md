@@ -408,7 +408,7 @@ Deque
 
 
 
- stack
+ Stack
 
  - 후입선출 (LIFO: Last In First Out)
 <br><br><br><br>
