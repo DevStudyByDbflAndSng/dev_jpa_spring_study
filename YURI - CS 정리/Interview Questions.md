@@ -374,6 +374,8 @@ Key/Value로 구성된다. Key 중복 허용X, value 중복 허용O
 
 Queue
 
+처음에 저장한 데이터를 가장 먼저 꺼내는 구조.(FIFO : first in first out)
+
 먼저 들어온 데이터가 먼저 나가는 구조
 
 Output으로 나올 Element만 기본적으로 접근 가능하다.
