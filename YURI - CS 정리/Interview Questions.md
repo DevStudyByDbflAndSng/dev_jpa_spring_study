@@ -373,6 +373,8 @@ Queue
 
 먼저 들어온 데이터가 먼저 나가는 구조
 
+- 처음에 저장한 데이터를 가장 먼저 꺼내는 구조.(FIFO : first in first out)
+
 Output으로 나올 Element만 기본적으로 접근 가능하다.
 
 - 큐는 한쪽 끝은 프런트(fornt)로 정하여 삭제 연산만 수행함
@@ -401,6 +403,18 @@ Deque
 
 - Null요소는 사용 불가
 <br><br><br><br>
+
+
+
+
+Stack
+
+- 후입선출 (LIFO: Last In First Out)
+
+ <br><br><br><br>
+
+
+
  
 
 32. package란 무엇인가
