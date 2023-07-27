@@ -291,8 +291,7 @@ final 클래스
 
 - 지역 변수 : 클래스 이외의 영역(메서드, 생성자, 초기화블럭), 변수 선언문이 수행되었을 때
 
-- ![스크린샷 2023-07-27 오후 10 16 17](https://github.com/DevStudyByDbflAndSng/dev_jpa_spring_study/assets/116433637/ff1a0b2d-9f5c-4c3a-a594-8c8cf3b9f11b)
-
+ ![스크린샷 2023-07-27 오후 10 16 17](https://github.com/DevStudyByDbflAndSng/dev_jpa_spring_study/assets/116433637/ff1a0b2d-9f5c-4c3a-a594-8c8cf3b9f11b)
 
 <br><br><br><br>
  
