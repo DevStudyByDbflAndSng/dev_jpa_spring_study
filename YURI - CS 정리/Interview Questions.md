@@ -293,6 +293,7 @@ final 클래스
 
  ![스크린샷 2023-07-27 오후 10 16 17](https://github.com/DevStudyByDbflAndSng/dev_jpa_spring_study/assets/116433637/ff1a0b2d-9f5c-4c3a-a594-8c8cf3b9f11b)
 
+
 <br><br><br><br>
  
 
@@ -326,7 +327,7 @@ void : return값이 없는 메서드
 
 31. 자바에서 메소드의 호출 방식과 자료구조, 해당 자료구조의 특징
 
-Call by calue(값에 의한 호출)
+Call by value(값에 의한 호출)
 
 - 메소드로 인자값을 넘길 때, 그 값을 복사하여 넘기기 때문에 메소드 내에서는 복사된 값으로 작업을 하고, 원래의 값을 변경시키지 않는다.
 <br><br><br><br>
@@ -378,6 +379,8 @@ Queue
 
 먼저 들어온 데이터가 먼저 나가는 구조
 
+- 처음에 저장한 데이터를 가장 먼저 꺼내는 구조.(FIFO : first in first out)
+
 Output으로 나올 Element만 기본적으로 접근 가능하다.
 
 - 큐는 한쪽 끝은 프런트(fornt)로 정하여 삭제 연산만 수행함
@@ -407,13 +410,6 @@ Deque
 - Null요소는 사용 불가
 <br><br><br><br>
 
-
-
-
- Stack
-
- - 후입선출 (LIFO: Last In First Out)
-<br><br><br><br>
 
 
 
