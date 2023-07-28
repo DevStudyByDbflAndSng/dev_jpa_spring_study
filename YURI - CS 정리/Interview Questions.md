@@ -285,14 +285,21 @@ final 클래스
 
 26. 변수의 선언 위치에 따른 변수 종류와 메모리 할당 위치
 
-- 클래스 변수 : 클래스 영역, 클래스가 메모리에 올라갈 때
+- 클래스 변수 : 클래스 영역에 선언, 클래스가 메모리에 올라갈 때 , 스태틱 영역(메소드 영역)에 올라간다. ex) static int cv;
 
-- 인스턴스 변수 : 클래스 변수, 인스턴스가 생성될 때
+- 인스턴스 변수 : 클래스 영역에 선언, 인스턴스가 생성될 때, 힙 영역에 올라간다.  ex)int iv;
 
+- 지역 변수 : 클래스 이외의 영역(메서드, 생성자, 초기화블럭), 변수 선언문이 수행되었을 때 , 스택 영역에 올라간다. 
+
+ ![스크린샷 2023-07-27 오후 10 16 17](https://github.com/DevStudyByDbflAndSng/dev_jpa_spring_study/assets/116433637/ff1a0b2d-9f5c-4c3a-a594-8c8cf3b9f11b)
+
+<<<<<<< HEAD
 - 지역 변수 : 클래스 이외의 영역(메서드, 생성자, 초기화블럭), 변수 선언문이 수행되었을 때
 ![스크린샷 2023-07-27 오후 10 16 17](https://github.com/DevStudyByDbflAndSng/dev_jpa_spring_study/assets/116433637/869c01ad-a927-4fc0-8754-73db8d9026db)
 
   
+=======
+>>>>>>> 6a2c821e8e18fd0ed79f0481a429dbda46c006f9
 <br><br><br><br>
  
 
@@ -374,6 +381,8 @@ Key/Value로 구성된다. Key 중복 허용X, value 중복 허용O
 
 Queue
 
+처음에 저장한 데이터를 가장 먼저 꺼내는 구조.(FIFO : first in first out)
+
 먼저 들어온 데이터가 먼저 나가는 구조
 
 - 처음에 저장한 데이터를 가장 먼저 꺼내는 구조.(FIFO : first in first out)
@@ -410,6 +419,7 @@ Deque
 
 
 
+<<<<<<< HEAD
 Stack
 
 - 후입선출 (LIFO: Last In First Out)
@@ -419,6 +429,15 @@ Stack
 
 
  
+=======
+ Stack
+
+ - 후입선출 (LIFO: Last In First Out)
+<br><br><br><br>
+
+
+
+>>>>>>> 6a2c821e8e18fd0ed79f0481a429dbda46c006f9
 
 32. package란 무엇인가
 
