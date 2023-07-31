@@ -24,7 +24,7 @@ public class Member {
 
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
-    private Team team;
+    private Team team;   // 연관관계 주인
 
 
     public Long getId() {
@@ -47,7 +47,8 @@ public class Member {
         return team;
     }
 
-    public void setTeam(Team team) {
+    public void changeTeam(Team team) { // 로직이 들어갈때는 set 대신 이름을 쓴다.
         this.team = team;
+        team.getMembers().add(this); // 연관관계 편의 메소드를 생성.
     }
 }
