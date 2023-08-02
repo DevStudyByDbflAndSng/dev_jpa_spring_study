@@ -620,7 +620,7 @@ String.valueOf(변수명)
 
 - ArithmeticException : 정수를 0으로 나누었을 경우
 
-- ArrayStoreException : 배열 유형이 허락하지 않는 객체를 객체 배열에 젖아하려는 경우
+- ArrayStoreException :  객체 배열에 잘못된 유형의 객체를 저장하려고 하면 Java에서 런타임 시 throw 된다.
 
 - ArrayIndexOutOfBoundsException : 배열을 찹조하는 인덱스가 잘못된 경우
 
