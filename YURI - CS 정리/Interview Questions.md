@@ -622,7 +622,7 @@ String.valueOf(변수명)
 
 - ArrayStoreException :  객체 배열에 잘못된 유형의 객체를 저장하려고 하면 Java에서 런타임 시 throw 된다.
 
-- ArrayIndexOutOfBoundsException : 배열을 찹조하는 인덱스가 잘못된 경우
+- ArrayIndexOutOfBoundsException : 배열을 참조하는 인덱스가 잘못된 경우
 
 - ClassCastException : 적절치 못하게 Class를 형 변환하는 경우
 
