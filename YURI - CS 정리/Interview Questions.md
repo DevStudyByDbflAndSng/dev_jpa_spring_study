@@ -634,9 +634,11 @@ String.valueOf(변수명)
 
 1. try, catch block
 
-2. throws
+2. throws -  throws는 예외가 발생하면 상위메서드로 예외를 던진다.
 
-4. throw(인위적 Exception 발생)
+4. throw(인위적 Exception 발생)  - throw는 예외를 강제로 발생시킨 후, 상위 블럭이나 catch문으로 예외를 던진다.
+
+
 
  <br><br><br><br>
 
