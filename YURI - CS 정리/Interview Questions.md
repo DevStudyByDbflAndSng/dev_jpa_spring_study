@@ -1190,27 +1190,25 @@ was서버
 
 7. 서블릿의 동작 구조
 
-1. 클라이언트의 URL요청
+클라이언트의 URL요청
 
-2. HTTP요청을 처리하기 위한 HttpServletRequest 객체 및 HttpServletResponse 객체 생성
+HTTP요청을 처리하기 위한 HttpServletRequest 객체 및 HttpServletResponse 객체 생성
+요청된 URL을 배포서술자(DD, Deplyment Descriptor)분석을 통해 요청된 서블릿 클래스를 찾음
 
-3. 요청된 URL을 배포서술자(DD, Deplyment Descriptor)분석을 통해 요청된 서블릿 클래스를 찾음
-
-4.. 서블릿 컨테이너에서 실행된 적 or 메모리에 생성된 인스턴스가 있는지 체크
+서블릿 컨테이너에서 실행된 적 or 메모리에 생성된 인스턴스가 있는지 체크
 
 - 처음 실행 : 인스턴스를 생성한 후 init()호출 -> 초기화 후 스레드 생성
 
 - 이미 실행 : 기존 인스턴스에 스레드 생성
 
-5. 각 스레드의 service()호출 및 Get or Post방식에 따라 doGet() or doPost() 호출
+각 스레드의 service()호출 및 Get or Post방식에 따라 doGet() or doPost() 호출
 
 - 2에서 생성된 HttpServletRequest 객체와 HttpServletResponse 객체가 인자로 전달됨
 
-6. doGet() or doPost() 로직에서 생성된 동적 웹 페이지 결과물은 HttpServletResponse 객체에 담김.
+doGet() or doPost() 로직에서 생성된 동적 웹 페이지 결과물은 HttpServletResponse 객체에 담김.
 
-7. HttpServletResponse 객체를 서블릿 컨테이너에서 HTTP 형태로 바뀌어 웹 서버로 전송
-
-8. HttpServletRequest 객체와 HttpServletResponse 객체의 메모리 소멸 및 스레드 종료
+HttpServletResponse 객체를 서블릿 컨테이너에서 HTTP 형태로 바뀌어 웹 서버로 전송
+HttpServletRequest 객체와 HttpServletResponse 객체의 메모리 소멸 및 스레드 종료
 
  <br><br><br><br>
 
