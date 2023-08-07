@@ -1079,6 +1079,7 @@ FOREIGN KEY : 참조하는 테이블 칼럼의 데이터만을 허용 , 부모 �
 29. 트리거란
 
 특정 테이블에 DML문이 수행되었을 때, 데이터베이스에서 자동으로 동작하도록 작성된 프로그램
+http://terms.tta.or.kr/dictionary/dictionaryView.do?subject=%ED%8A%B8%EB%A6%AC%EA%B1%B0
 
  <br><br><br><br>
 
