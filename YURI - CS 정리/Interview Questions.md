@@ -1274,6 +1274,7 @@ Client로부터 Server로 요청이 들어오기 전에 서블릿을 거쳐서 �
 14. 래퍼란
 
 웹 브라우저와 웹 컴포넌트 사이를 오가는 데이터에 변형을 가하려면 필터 클래스와 더불어 포장하는 역할을 하는 클래스를 작성해야 하는데 이것이 래퍼 클래스이다.
+https://jaynamm.tistory.com/entry/JAVA-%EB%9E%98%ED%8D%BC-%ED%81%B4%EB%9E%98%EC%8A%A4-Wrapper-Class
 
  <br><br><br><br>
 
