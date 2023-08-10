@@ -1607,6 +1607,9 @@ Apache License로 배포되는 오픈 소스 소프트웨어이다.
 14. IoC란 무엇인가
 
 제어의 역전. 메소드의 객체나 호출작업을 개발자가 결정하는 것이 아니라, 외부에서 결정되는 것
+ <br>
+https://minsoolog.tistory.com/52
+
 
  <br><br><br><br>
 
