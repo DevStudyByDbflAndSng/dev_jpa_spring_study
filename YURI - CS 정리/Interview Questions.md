@@ -1706,6 +1706,9 @@ xml을 이용한 bean 관리
 23. AOP란
 
 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점으로 나누어서 보고 그 관점을 기준으로 각각 모듈화하겠다는 것
+<br>
+
+https://engkimbs.tistory.com/746
 <br><br><br><br>
  
 
