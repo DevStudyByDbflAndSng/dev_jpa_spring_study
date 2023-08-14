@@ -1631,6 +1631,9 @@ https://minsoolog.tistory.com/52
 
 Dependency Injection - 의존성 주입
 
+<br>
+https://tecoble.techcourse.co.kr/post/2021-04-27-dependency-injection/
+
  <br><br><br><br>
 
 18. DI의 장점
